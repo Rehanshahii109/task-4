@@ -1,0 +1,258 @@
+ body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9fafa;
+    }
+    .navbar-brand img {
+      height: 28px;
+    }
+    .hero-section {
+        
+      text-align: center;
+      padding: 100px 20px 50px;
+      width: 734px;
+    height: 531.6041259765625px;
+    justify-content: center;
+      /* angle: 0 deg; */
+        opacity: 1px;
+
+    }
+    .sub-badge {
+      display: inline-block;
+      padding: 6px 14px;
+      font-size: 0.85rem;
+      background-color: #e6f4f1;
+      color: #00897b;
+      border-radius: 20px;
+      margin-bottom: 20px;
+    }
+    .hero-heading {
+      font-size: 2.8rem;
+      font-weight: 600;
+    }
+    .highlight {
+      color: #00897b;
+      font-style: italic;
+    }
+    .hero-subtext {
+      color: #555;
+      font-size: 1rem;
+      margin-top: 20px;
+      margin-bottom: 30px;
+    }
+    .btn-get-started {
+      background-color: #00897b;
+      color: #fff;
+      border: none;
+      padding: 10px 30px;
+      border-radius: 25px;
+    }
+    .btn-get-started:hover {
+      background-color: #00695c;
+    }
+    .options-toggle {
+      margin-top: 50px;
+      font-size: 0.95rem;
+    }
+    .options-toggle span {
+      margin: 0 10px;
+      cursor: pointer;
+      color: #888;
+    }
+    .options-toggle .active {
+      color: #000;
+      font-weight: 600;
+      border-bottom: 2px solid #00897b;
+    }
+
+
+    .image img{
+      margin-top: 10px;
+      width: 90%;
+      height: 90%;
+      margin-left: 160%;
+     
+    }
+
+    .text p {
+      font-size: 1.6rem;
+      color: #333;
+      text-align: center;
+      margin-top: 30px;
+      width: 60%;
+      margin-left: 25%;
+    }
+
+      
+
+     .feature-box {
+      border-left: 3px solid #009688;
+      background-color: #fff;
+      padding: 20px;
+      height: 100%;
+      transition: 0.3s ease-in-out;
+    }
+
+    .feature-box:hover {
+      box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    }
+
+    .feature-icon {
+      font-size: 24px;
+      color: #009688;
+      margin-bottom: 10px;
+    }
+
+    .section-title {
+      font-size: 2.25rem;
+      font-weight: 700;
+    }
+
+    .section-subtitle {
+      font-style: italic;
+      color: #009688;
+      font-size: 2.25rem;
+    }
+
+    .section-header {
+      margin-bottom: 40px;
+    }
+
+
+
+    .container{
+     background: linear-gradient(to bottom, #eef9f8 0%, #ffffff 100%);
+    }
+   
+    .icon-circle {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background-color: #d4f1ec;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 20px;
+    }
+
+    .main-heading {
+      font-size: 2.25rem;
+      font-weight: 700;
+    }
+
+    .main-heading span {
+      color: #009688;
+      font-style: italic;
+    }
+
+    .feature-title {
+      font-weight: 600;
+    }
+
+    .feature-icon {
+      font-size: 0.875rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-right: 15px;
+    }
+
+    .feature-icon i {
+      font-size: 0.7rem;
+      color: #009688;
+    }
+
+    .btn-custom {
+      background-color: #000;
+      color: #fff;
+      border-radius: 50px;
+      padding: 10px 24px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 14px;
+    }
+
+    .btn-custom small {
+      background: #fff;
+      color: #000;
+      padding: 3px 10px;
+      border-radius: 50px;
+      font-size: 12px;
+    }
+
+    /* .section-footer {
+      margin-top: 40px;
+    } */
+
+
+    
+    .section-heading {
+      font-size: 2rem;
+      font-weight: 600;
+    }
+
+    .section-heading span {
+      color: #009688;
+      font-style: italic;
+    }
+
+    .question-box {
+      border-left: 3px solid #009688;
+      padding: 15px;
+      background-color: #f8f9fa;
+      border-radius: 6px;
+      margin-top: 20px;
+      font-size: 0.95rem;
+    }
+
+    .profile-box {
+      background-color: #f8f9fa;
+      border-radius: 10px;
+      padding: 20px;
+      text-align: center;
+      position: relative;
+    }
+
+    .profile-box img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    /* .icon-ring {
+      position: absolute;
+      top: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      border: 1px dashed #ccc;
+      z-index: 0;
+    } */
+
+    .testimonial {
+      background-color: #fff;
+      padding: 40px 20px 10px;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 500;
+    }
+
+    .testimonial span {
+      font-size: 0.9rem;
+      display: block;
+      margin-top: 10px;
+      color: #6c757d;
+    }
+
+  
+ 
+
+
+
+  
+
+
+    
