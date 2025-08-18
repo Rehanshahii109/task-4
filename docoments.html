@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Strabo Clone</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css"/>
+  
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+  <div class="container bg-light">
+    <a class="navbar-brand" href="/index.html">
+      <img src="img/Group.png "  alt="Logo" height="30"><span class="ms-2">Strabo</span>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mx-auto">
+
+        <!-- Platform Dropdown -->
+        <li class="nav-item dropdown px-2">
+          <a class="nav-link dropdown-toggle" href="#" id="platformDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Platform
+          </a>
+          <ul class="dropdown-menu p-3" aria-labelledby="platformDropdown" style="min-width: 280px;">
+            <small class="text-uppercase text-muted">Resources</small>
+            <li>
+              <a class="dropdown-item d-flex align-items-start" href="/getstart.html">
+                <i class="bi bi-flag me-2"></i>
+                <div>
+                  <div>Getting Started</div>
+                  <small class="text-muted">Your dashboard setup guide</small>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item d-flex align-items-start" href="/blog.html">
+                <i class="bi bi-journal-text me-2"></i>
+                <div>
+                  <div>Blog and Articles</div>
+                  <small class="text-muted">Grab a coffee and have a browse</small>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item d-flex align-items-start active" href="/glossery.html">
+                <i class="bi bi-book me-2"></i>
+                <div>
+                  <div>Glossary</div>
+                  <small class="text-muted">Key terms from your dashboard</small>
+                </div>
+              </a>
+            </li>
+
+            <hr class="dropdown-divider">
+
+            <small class="text-uppercase text-muted">Tools</small>
+            <li>
+              <a class="dropdown-item d-flex align-items-start" href="#">
+                <i class="bi bi-calculator me-2"></i>
+                <div>
+                  <div>Calculator</div>
+                  <small class="text-muted">Interactive tools & widgets</small>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item d-flex align-items-start" href="/docoments.html">
+                <i class="bi bi-file-text me-2"></i>
+                <div>
+                  <div>Documentation</div>
+                  <small class="text-muted">Platform need-to-knows</small>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        
+        <li class="nav-item dropdown px-2">
+          <a class="nav-link dropdown-toggle" href="#" id="resourcesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Resources
+          </a>
+          <ul class="dropdown-menu p-3" aria-labelledby="resourcesDropdown" style="min-width: 280px;">
+            <small class="text-uppercase text-muted">Resources</small>
+            <li>
+              <a class="dropdown-item d-flex align-items-start" href="/getstart.html">
+                <i class="bi bi-flag me-2"></i>
+                <div>
+                  <div>Getting Started</div>
+                  <small class="text-muted">Your dashboard setup guide</small>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item d-flex align-items-start" href="#">
+                <i class="bi bi-journal-text me-2"></i>
+                <div>
+                  <div>Blog and Articles</div>
+                  <small class="text-muted">Grab a coffee and have a browse</small>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item d-flex align-items-start active" href="#">
+                <i class="bi bi-book me-2"></i>
+                <div>
+                  <div>Glossary</div>
+                  <small class="text-muted">Key terms from your dashboard</small>
+                </div>
+              </a>
+            </li>
+
+            <hr class="dropdown-divider">
+
+            <small class="text-uppercase text-muted">Tools</small>
+            <li>
+              <a class="dropdown-item d-flex align-items-start" href="#">
+                <i class="bi bi-calculator me-2"></i>
+                <div>
+                  <div>Calculator</div>
+                  <small class="text-muted">Interactive tools & widgets</small>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item d-flex align-items-start" href="#">
+                <i class="bi bi-file-text me-2"></i>
+                <div>
+                  <div>Documentation</div>
+                  <small class="text-muted">Platform need-to-knows</small>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav-item px-2"><a class="nav-link" href="/coustomerpage.html">Customers</a></li>
+        <li class="nav-item px-2"><a class="nav-link" href="/plan.html">Plans</a></li>
+        <li class="nav-item px-2"><a class="nav-link" href="#">Community</a></li>
+      </ul>
+
+      <div class="ms-auto">
+        <a class="btn btn-outline-secondary" href="#">Launch app</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<hr class="m-0">
+
+<!-- Hero Section -->
+<section class="hero-section mx-auto border-start border-end container">
+  <div class="container-fluid ">
+   
+    <h1 class="hero-heading">
+      Documentation
+     
+    </h1>
+    <p class="hero-subtext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto inventore nihil officiis iusto debitis aperiam a ad, maxime labore quos optio ratione ex</p>
+    <button class="btn btn-get-started">Get started &raquo;</button>
+  </div>
+</section>
+
+<!-- Content Section -->
+<div class="container">
+  <div class="row">
+    <!-- Sidebar -->
+    <div class="col-md-3  p-3">
+      <h6 class="fw-bold">Table of contents</h6>
+      <ul class="list-unstyled">
+        <li class="fw-bold">Legal
+          <ul class="list-unstyled ms-3">
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </li>
+        <li class="mt-2"><a href="#">Getting Started</a></li>
+        <li><a href="#">Adding Accounts</a></li>
+        <li><a href="#">Advice</a></li>
+      </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="col-md-9 p-4">
+      <h3 class="fw-bold">Terms of Use</h3>
+      <p class="text-muted">Last updated: 1 June 2024</p>
+
+      <h5 class="fw-bold">Our Agreement:</h5>
+      <p>
+        By accessing the Strabo website and the Service, you confirm that you accept the terms
+        and conditions outlined below ("The Agreement"), and that you agree to be bound by them.
+        The Service is owned and operated by Strabo Financial Ltd.
+      </p>
+      <p>
+        These terms and conditions, together with our <a href="#">Privacy Policy</a> and 
+        <a href="#">Cookie Policy</a> list the terms on which you may use the Service, your rights
+        and responsibilities to us, and our rights and responsibilities to you.
+      </p>
+      <p>
+        If you do not agree to the Agreement, you must not use the Service.
+      </p>
+
+      <h5 class="fw-bold">The Service:</h5>
+      <p>
+        Strabo allows you to connect your financial accounts into one dashboard, and visualises
+        your account information to help you better understand your financial information ("The Service").
+        You can access the Service through our <a href="#">website</a>. The Service is a read-only
+        service as of the date of this Agreement.
+      </p>
+      <p>
+        By using the Service, you warrant that you are at least 16 years of age.
+      </p>
+
+      <h5 class="fw-bold">Creating a User Account:</h5>
+      <p>
+        To use the service, you will need a Google account or an email address. Sign in by email
+        address is done using a unique authentication code, which changes on each login...
+      </p>
+
+      <h5 class="fw-bold">Connecting Personal Accounts:</h5>
+      <p>
+        We rely on our Trusted Partners, Plaid Inc. ("Plaid"), Yodlee Inc. ("Yodlee"), and Vezgo Inc.
+        ("Vezgo") for the provision of the Service...
+      </p>
+            <p>
+        For the provision of the Service, you give your consent to provide your Personal Account
+        login details to our Trusted Partner, who will then create a token containing a snapshot
+        of your financial information securely through their proprietary APIs. Our Trusted Partner
+        will continue to do so until you withdraw your consent.
+      </p>
+      <p>
+        By agreeing to the terms and conditions you grant to us and our Trusted Partner a royalty-free
+        and non-exclusive license to the information in your personal accounts for the provision of
+        the Service, which is visualised in a dashboard on the website.
+      </p>
+      <p>
+        You agree that we will be entitled to disclose your identity and information relating to your
+        Personal Account(s) to third parties if we are required to do so by any applicable law or
+        court order. By using the Service, you confirm that you are the legal owner of all the personal
+        information in your Personal Accounts and that you have the authority to appoint, and do appoint,
+        our Trusted Partner as your agent and grant a limited power of attorney to access and retrieve
+        such information on your behalf.
+      </p>
+
+      <h5 class="fw-bold mt-4">Privacy & Cookies:</h5>
+      <p>
+        Your privacy and security is of high importance to us. Strabo’s 
+        <a href="#">Privacy Policy</a> explains how we store and process your data and protect your privacy 
+        when you use our service. We use cookies for enhancing your user experience when you use our Service. 
+        By using our Service, you agree to the terms of our Privacy & Cookies Policy which forms part of our 
+        Agreement with you. You can read this on our Privacy page.
+      </p>
+
+      <h5 class="fw-bold mt-4">Your Use of the Service:</h5>
+      <p>
+        You agree to ensure that you access the Service as permitted by law, and do not interfere with 
+        or damage (including attempting to do the same) our Service by using a method not listed in the 
+        terms of the Agreement. You may access the service from a third-party web browser (such as Chrome, 
+        Safari, Edge, Firefox) and must not attempt to use any engine, software, tool or mechanism (including 
+        but not limited to spiders, crawlers, bots, scrapers) to navigate the Service.
+      </p>
+      <p>
+        You must not alter or modify (including attempting to do the same) the visualised dashboard after 
+        the provision of the Service. You may not frame, link, or otherwise alter the content and the code. 
+        You must not inaccurately or improperly use...
+      </p>
+        <h5 class="fw-bold">Third-Parties:</h5>
+    <p>
+      For the provision of the Service, we may use Third-Party websites, applications or features
+      (“Third-Party Services”). We do not control Third-Party Services and you acknowledge and agree
+      that your use of Third-Part Services is at your own risk. We assume no liability for the operation
+      of Third-Party Services, and will be not liable for any loss or damage that arises from such use of
+      Third-Party Services. At time of writing, these are limited to analytics platforms that allow us to
+      observe aggregated and anonymised user behaviour. At time of writing these are comprised by
+      Mixpanel, Livesession and Google Analytics. The individual terms for these platforms can be viewed
+      on their respective websites.
+    </p>
+    <p>
+      We have made every best effort where applicable to ensure that through the use of these services,
+      Strabo have no access to identifiable user data including personal financial information. These
+      platforms are used to provide the best service possible, and analytics include counting the use of
+      particular features on the Platform, as well as email opens and activity, number of accounts connected
+      and similar.
+    </p>
+
+    <h5 class="fw-bold">Warranties:</h5>
+    <p>
+      You agree that your use of the Service and content (including that of third parties) included in or
+      accessible from the Service is at your own risk. You agree that the service is provided on an “as is”
+      and “as available” basis. Strabo and its Trusted Partners disclaim all warranties of any kind as to the
+      Service and content (including that of third parties) included in or accessible from the Service.
+    </p>
+    <p>
+      We and our Trusted Partner make no warranties that the Service will meet your requirements; the
+      Service will be uninterrupted, timely, secure, or error-free; the results that may be obtained from the
+      use of the Service will be accurate or reliable; the quality of any products, services, information, or
+      other material purchased or obtained by you through the Service will meet your expectations; or any
+      errors in the technology will be corrected.
+    </p>
+
+    <h5 class="fw-bold">Our Liability:</h5>
+     
+    <p>
+      Strabo is not developed to meet your individual needs, it is your responsibility to ensure that it meet
+      such requirements. Strabo provides the Service for domestic and private use. You may not use the
+      Service for any commercial, business, or resale purposes and we have no liability to you for any loss
+      of profit, loss of revenue, loss of business, loss of contracts, loss of anticipated savings, loss of data,
+      waste of management or office time, or any indirect or consequential loss or damage of any kind
+      howsoever arising and whether caused by tort (including negligence), breach of contract or otherwise,
+      even if foreseeable.
+    </p>
+    <p>
+      All information and content made available through the Service is not financial advice, and Strabo is
+      not a Financial Advisor. You are responsible for making your own decisions by using your own
+      judgement and seeking professional advice.
+    </p>
+    <p>
+      We and our Trusted Partners do not in any way limit our liability for: Fraud and fraudulent activities;
+      Loss of profits and goodwill; any statement or conduct on or via the Service by any third party; loss of
+      data which is caused by factors other than negligence or breach of statutory duty on the party of us
+      or our Trusted Partner; the acts or omissions of the providers of your Personal Account(s); the cost to
+      you of obtaining goods or services as substitutes for the Service; or any other loss or damage suffered
+      by you in connection with the Service.
+    </p>
+
+    <h5 class="fw-bold">Financial Advice Disclaimer</h5>
+    <p>
+      Strabo Financial Ltd isn’t a registered financial advisor or dealer and doesn’t provide personalised
+      financial, investment, tax, or legal advice. The information you see on the Platform is intended for
+      informational purposes only and should not be considered as specific advice or recommendations.
+      Your investment decisions should be based on your own risk tolerance and financial situation.
+    </p>
+    <p>
+      You should consider the multi-jurisdiction implications of any financial decisions before making any
+      investments based on information you see in the Platform. All data shown uses best practices and
+      forecasts are made using historical asset data.
+    </p>
+    </div>
+  </div>
+</div>
+
+
+<hr class="dropdown-divider">
+
+
+<!-- Newsletter Section -->
+<section class="container py-5 text-center">
+  <h2 class="fw-bold">Join our <span class="text-success fst-italic">newsletter</span></h2>
+  <p>Want to keep track of what we're up to without the commitment?<br>
+     You can sign up to the newsletter below.</p>
+
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="input-group mt-3">
+        <input type="email" class="form-control" placeholder="Enter your email address">
+        <button class="btn btn-dark">Contact Us</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer -->
+<footer class="bg-dark text-white pt-5 pb-4 small">
+  <div class="container-3">
+
+    <!-- Top Row -->
+    <div class="row g-0">
+      <!-- Logo + Social -->
+      <div class="col-md-3 mb-4">
+        <img src="https://via.placeholder.com/120x35" alt="Strabo Logo" class="mb-3">
+        <div class="d-flex gap-3">
+          <a href="#" class="text-white"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="text-white"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+          <a href="#" class="text-white"><i class="bi bi-github"></i></a>
+        </div>
+      </div>
+
+      <!-- Wealth -->
+      <div class="col-6 col-md-2 mb-4">
+        <h6 class="fw-bold text-uppercase">Wealth</h6>
+        <ul class="list-unstyled mt-3">
+          <li><a href="#" class="text-white text-decoration-none">Resources</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Contact</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Roadmap</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Getting Started</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Pricing</a></li>
+        </ul>
+      </div>
+
+      <!-- Legal -->
+      <div class="col-6 col-md-2 mb-4">
+        <h6 class="fw-bold text-uppercase">Legal</h6>
+        <ul class="list-unstyled mt-3">
+          <li><a href="#" class="text-white text-decoration-none">Terms of Use</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Cookie Policy</a></li>
+          <li><a href="#" class="text-white text-decoration-none">FCA Register</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Glossary</a></li>
+        </ul>
+      </div>
+
+      <!-- Security -->
+      <div class="col-6 col-md-2 mb-4">
+        <h6 class="fw-bold text-uppercase">Security</h6>
+        <ul class="list-unstyled mt-3">
+          <li><a href="#" class="text-white text-decoration-none">Financials</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Data</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Platform</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Open Banking</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Status</a></li>
+        </ul>
+      </div>
+
+      <!-- Extras -->
+      <div class="col-6 col-md-3 mb-4">
+        <h6 class="fw-bold text-uppercase">Extras</h6>
+        <ul class="list-unstyled mt-3">
+          <li><a href="#" class="text-white text-decoration-none">About</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Customers</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Team</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Blog</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Middle Row -->
+    <div class="border-top border-secondary pt-3 mt-3 p-3">
+      <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-center">
+        <p class="mb-2 mb-md-0">
+          © Strabo Financial Ltd 2025. Built with 
+          <span class="text-success">❤</span> and <span class="text-success">☕</span>
+        </p>
+        <div>
+          <a href="#" class="text-white me-3">Terms & Conditions</a>
+          <a href="#" class="text-white me-3">Privacy Policy</a>
+          <a href="#" class="text-white">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Disclaimer -->
+    <div class="mt-3 text-secondary p-4">
+      <p>
+        If you’d like to find out more Strabo’s permissions, regulatory status, or if you have any other questions, 
+        please reach out to us via the in-platform chat on the Strabo dashboard, or directly at hello@strabo.app.
+        In the UK, Strabo provides you with regulated account information services as an agent of Plaid Financial Ltd...
+      </p>
+      <p>
+        Past performance is not indicative of future returns and any financial information displayed on your dashboard
+        is only completely indicative of your financial situation and the status of all your investments at one singular point in time. 
+        Your asset allocation in all your accounts should be reflective of your capacity and appetite for 
+        <a href="#" class="text-success">risk at all times</a>.
+      </p>
+    </div>
+
+  </div>
+</footer>
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
