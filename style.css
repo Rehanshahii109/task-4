@@ -25,21 +25,10 @@ body {
 /* HERO SECTION */
 .hero-section {
   text-align: center;
-  padding: 100px 20px 50px;
-  width: 734px;
-  height: 531.6px;
-  justify-content: center;
-  opacity: 1;
+  padding: 80px 20px 50px;
   background-color: #f5fbfa;
+  border-radius: 8px;
 }
-
-
-
-
-
-
-
-
 
 .sub-badge {
   display: inline-block;
@@ -52,7 +41,7 @@ body {
 }
 
 .hero-heading {
-  font-size: 2.8rem;
+  font-size: clamp(1.8rem, 4vw, 2.8rem); /* responsive text */
   font-weight: 600;
 }
 
@@ -63,7 +52,7 @@ body {
 
 .hero-subtext {
   color: #555;
-  font-size: 1rem;
+  font-size: clamp(0.9rem, 2vw, 1.1rem); /* scales smoothly */
   margin-top: 20px;
   margin-bottom: 30px;
 }
@@ -74,11 +63,15 @@ body {
   border: none;
   padding: 10px 30px;
   border-radius: 25px;
+  transition: background 0.3s;
 }
 
 .btn-get-started:hover {
   background-color: #00695c;
 }
+
+/* Responsive images handled by Bootstrap .img-fluid */
+
 
 .options-toggle {
   margin-top: 50px;
